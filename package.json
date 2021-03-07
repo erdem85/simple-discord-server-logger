@@ -1,0 +1,18 @@
+{
+  "name": "ultimate-logger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "fsetup": "node setup1.js",
+    "ssetup": "node setup2.js",
+    "clear": "node delete.js"
+  },
+  "dependencies": {
+    "discord.js": "github:erdem85/discord.js",
+    "lowdb": "1.0.0"
+  },
+  "author": "erdem#0085",
+  "license": "SEE LICENSE IN LICENSE.MD"
+}
