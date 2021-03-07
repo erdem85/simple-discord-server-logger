@@ -7,7 +7,7 @@
     "start": "node index.js",
     "fsetup": "node setup1.js",
     "ssetup": "node setup2.js",
-    "clear": "node delete.js"
+    "clear": "node clear.js"
   },
   "dependencies": {
     "discord.js": "github:erdem85/discord.js",
