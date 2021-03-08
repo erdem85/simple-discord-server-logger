@@ -6,8 +6,8 @@ const adapter = new FileSync('channels.json')
 const db = low(adapter)
 
 const Discord = require("discord.js")
-const client = new Discord.Client({user: config.secondacc.user})
-client.login(config.secondacc.token)
+const client = new Discord.Client({user: config.oneacc ? config.firstacc.user : config.secondacc.user})
+client.login(config.oneacc ? config.firstacc.user : config.secondacc.user)
 
 client.on("ready", async () => {
     console.log("Starting...")
