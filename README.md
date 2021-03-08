@@ -8,3 +8,5 @@
 - run setup1.js `npm run fsetup`
 - run setup2.js `npm run ssetup` (you can use this command many times)
 - finally, start logger `npm start`
+
+![image](https://user-images.githubusercontent.com/41632465/110292964-0a3ba080-7fff-11eb-87e0-f129fc186b10.png)
