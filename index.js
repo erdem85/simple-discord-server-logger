@@ -3,9 +3,9 @@ const channels = require("./channels.json");
 
 const Discord = require("discord.js");
 const client1 = new Discord.Client({user: config.firstacc.user})
-const client2 = new Discord.Client({user: config.secondacc.user})
+const client2 = new Discord.Client({user: config.oneacc ? config.firstacc.user : config.secondacc.user})
 client1.login(config.firstacc.token)
-client2.login(config.secondacc.token)
+client2.login(config.oneacc ? config.firstacc.token : config.secondacc.token)
 client1.on("message", async (msg) => {
     if (msg.author.bot) return;
     if (!msg.guild) return;
