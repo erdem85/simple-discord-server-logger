@@ -11,6 +11,7 @@ client.login(config.secondacc.token)
 
 client.on("ready", async () => {
     console.log("Starting...")
+    console.log("this step may take a long time, please wait")
     client.guilds.cache.get(config.mguild).channels.cache.forEach(async channel => {
         if(channel.type !== "text") return;
         if(!channel.topic) return;
