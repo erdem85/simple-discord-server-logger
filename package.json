@@ -12,7 +12,7 @@
   "dependencies": {
     "discord.js": "github:erdem85/discord.js",
     "lowdb": "1.0.0",
-    "express": "4.17.1
+    "express": "4.17.1"
   },
   "author": "erdem#0085",
   "license": "SEE LICENSE IN LICENSE.MD"
