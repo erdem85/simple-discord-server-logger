@@ -1,4 +1,5 @@
 module.exports = {
+    oneacc: false,
     firstacc: {
         token: "",
         user: true
